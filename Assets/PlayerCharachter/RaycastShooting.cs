@@ -24,7 +24,7 @@ public class RaycastShooting : MonoBehaviour
     void Update()
     {
         if(Input.GetButtonDown("Fire1")){
-            text.text
+            //text.text
             Shoot();
             
             //fire.Play();
