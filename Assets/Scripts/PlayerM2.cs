@@ -60,9 +60,10 @@ public class PlayerM2 : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Debug.Log("hit");
-            slider.value -= 0.1f;
+            slider.value -= 0.3f;
             if (slider.value == 0)
-            {SceneManager.LoadScene("LastScene");
+            {
+                SceneManager.LoadScene("LastScene");
                 Destroy(player);
             }
         }
