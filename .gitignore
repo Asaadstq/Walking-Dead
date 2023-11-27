@@ -62,6 +62,7 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+*.fbx
 
 
 # Crashlytics generated file

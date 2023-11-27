@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerM2 : MonoBehaviour
 {
@@ -60,7 +62,7 @@ public class PlayerM2 : MonoBehaviour
             Debug.Log("hit");
             slider.value -= 0.1f;
             if (slider.value == 0)
-            {
+            {SceneManager.LoadScene("LastScene");
                 Destroy(player);
             }
         }
